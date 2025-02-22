@@ -9,7 +9,7 @@ Name's Théo! Workin' on stuff.
       <img src="https://github-readme-stats.vercel.app/api?username=Theoslyy&show_icons=true&theme=radical&count_private=true&include_all_commits=true" width="400" />
     </td>
     <td rowspan="2">
-      <img src="https://raw.githubusercontent.com/Theoslyy/Theoslyy/refs/heads/main/66539665_tpsjpcMe0nPWpqy.png" width="300" />
+      <img src="https://raw.githubusercontent.com/Theoslyy/Theoslyy/refs/heads/main/66539665_tpsjpcMe0nPWpqy.png" width="200" />
     </td>
   </tr>
   <tr>
