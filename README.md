@@ -11,4 +11,9 @@ Name's Théo! Workin' on stuff.
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Theoslyy&layout=compact&theme=radical" />
     </td>
   </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="(https://github.com/Theoslyy/Theoslyy/blob/main/66539665_tpsjpcMe0nPWpqy.png)" width="300" />
+    </td>
+  </tr>
 </table>
