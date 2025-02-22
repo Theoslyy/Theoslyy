@@ -1,5 +1,5 @@
 ## Yo 👋
-
+Name's Théo! Workin' on stuff. 
 ### 📊 GitHub Stats  
 
 <table>
