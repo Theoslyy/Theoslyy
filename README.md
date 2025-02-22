@@ -13,7 +13,7 @@ Name's Théo! Workin' on stuff.
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="(https://github.com/Theoslyy/Theoslyy/blob/main/66539665_tpsjpcMe0nPWpqy.png)" width="300" />
+      <img src="https://raw.githubusercontent.com/Theoslyy/Theoslyy/refs/heads/main/66539665_tpsjpcMe0nPWpqy.png" width="300" />
     </td>
   </tr>
 </table>
