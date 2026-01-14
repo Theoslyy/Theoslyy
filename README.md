@@ -6,9 +6,6 @@ Name's Théo! Workin' on stuff.
 <table>
   <tr>
     <td>
-      <img src="./github-metrics.svg" width="420"/>
-    </td>
-    <td>
       <img src="./66539665_tpsjpcMe0nPWpqy.png" width="300"/>
     </td>
   </tr>
