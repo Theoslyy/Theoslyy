@@ -28,11 +28,12 @@ jobs:
           plugin_isocalendar: yes
           plugin_stars: yes
         
-          # Plugin configuration
-          languages_ignored: html, css
-          languages_details: percentage
-          languages_limit: 6
+          # Languages plugin config
+          plugin_languages_ignored: html, css
+          plugin_languages_details: percentage
+          plugin_languages_limit: 6
         
-          isocalendar_duration: half-year
-
+          # Isocalendar plugin config
+          plugin_isocalendar_duration: half-year
+        
           repositories_affiliations: owner
