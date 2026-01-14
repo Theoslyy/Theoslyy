@@ -14,29 +14,25 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Core
+        
           user: Theoslyy
           template: classic
-          theme: dark
           filename: github-metrics.svg
-
-          # Academic / systems-focused signal
+          config_timezone: America/Fortaleza
+        
+          # Base sections
           base: header, activity, repositories
-
-          # Languages (important for C/C++)
-          languages: yes
+        
+          # Enable plugins
+          plugin_languages: yes
+          plugin_isocalendar: yes
+          plugin_stars: yes
+        
+          # Plugin configuration
           languages_ignored: html, css
           languages_details: percentage
           languages_limit: 6
-
-          # Commit activity
-          isocalendar: yes
+        
           isocalendar_duration: half-year
 
-          # Repo & stars signal
-          stars: yes
           repositories_affiliations: owner
-
-          # Clean look
-          config_timezone: America/Fortaleza
