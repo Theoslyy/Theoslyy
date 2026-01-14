@@ -1,0 +1,42 @@
+name: GitHub Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * 1"   # Runs every Monday
+  workflow_dispatch:     # Allows manual run
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Core
+          user: Theoslyy
+          template: classic
+          theme: dark
+          filename: github-metrics.svg
+
+          # Academic / systems-focused signal
+          base: header, activity, repositories
+
+          # Languages (important for C/C++)
+          languages: yes
+          languages_ignored: html, css
+          languages_details: percentage
+          languages_limit: 6
+
+          # Commit activity
+          isocalendar: yes
+          isocalendar_duration: half-year
+
+          # Repo & stars signal
+          stars: yes
+          repositories_affiliations: owner
+
+          # Clean look
+          config_timezone: America/Fortaleza
