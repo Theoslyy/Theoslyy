@@ -1,8 +1,6 @@
 ## Woof
 Name's Théo! Workin' on stuff.  
 
-### 📊 GitHub Stats
-
 <table>
   <tr>
     <td>
